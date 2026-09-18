@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+a, b = int(input('insert a')), int(input('insert b'))
+print('a + b =', a+b)
+print('a - b =', a-b)
+print('a * b =', a*b)
+print('a / b =', a/b)
+print('a // b =', a//b)
+print('a % b =', a%b) 

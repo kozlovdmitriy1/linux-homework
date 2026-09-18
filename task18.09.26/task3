@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+name = 'Dmitriy'
+group = 'Б06-607'
+age = 18
+print('================')
+print('Name:', name)
+print('Group:', group)
+print('Age:', age)
+print('================')

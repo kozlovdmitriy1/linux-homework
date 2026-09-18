@@ -1,0 +1,28 @@
+Python 3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Python 3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+  File [35m"<python-input-1>"[0m, line [35m1[0m
+    print([1;31m'[0mHello)
+          [1;31m^[0m
+[1;35mSyntaxError[0m: [35munterminated string literal (detected at line 1)[0m
+Traceback (most recent call last):
+  File [35m"<python-input-2>"[0m, line [35m1[0m, in [35m<module>[0m
+    print([1;31mage[0m)
+          [1;31m^^^[0m
+[1;35mNameError[0m: [35mname 'age' is not defined[0m
+Traceback (most recent call last):
+  File [35m"<python-input-3>"[0m, line [35m1[0m, in [35m<module>[0m
+    [31m"Age: " [0m[1;31m+[0m[31m 18[0m
+    [31m~~~~~~~~[0m[1;31m^[0m[31m~~~[0m
+[1;35mTypeError[0m: [35mcan only concatenate str (not "int") to str[0m
+Traceback (most recent call last):
+  File [35m"<python-input-4>"[0m, line [35m1[0m, in [35m<module>[0m
+    [31mint[0m[1;31m('cat')[0m
+    [31m~~~[0m[1;31m^^^^^^^[0m
+[1;35mValueError[0m: [35minvalid literal for int() with base 10: 'cat'[0m
+Traceback (most recent call last):
+  File [35m"<python-input-5>"[0m, line [35m1[0m, in [35m<module>[0m
+    import sys; print([31msys.argv[0m[1;31m[1][0m)
+                      [31m~~~~~~~~[0m[1;31m^^^[0m
+[1;35mIndexError[0m: [35mlist index out of range[0m

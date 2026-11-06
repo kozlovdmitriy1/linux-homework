@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+import sys
+
+alp = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
+def M(t):
+    out = ''
+    for c in t:
+        c = c.upper()
+        out += alp[(alp.find(c)+1)%(len(alp)-1)-(alp.find(c)+1)//len(alp)]
+    return out
+text = sys.argv[1]
+print(M(str(text)))
+
